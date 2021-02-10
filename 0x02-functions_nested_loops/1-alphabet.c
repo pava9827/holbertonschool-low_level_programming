@@ -2,6 +2,7 @@
 
 /*
  *prints the alphabet, in lowercase, followed by a new line
+*az
  *Retunr: Alway void
 */
 void print_alphabet(void)
