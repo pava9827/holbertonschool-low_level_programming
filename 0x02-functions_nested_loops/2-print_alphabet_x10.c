@@ -1,16 +1,21 @@
 #include "holberton.h"
 
 /*
- *prints the alphabet, in lowercase, followed by a new line
+ *prints the alphabet x10 on screen:, 
  *Retunr: Alway void
 */
-void print_alphabet(void)
+void print_alphabet_x10(void)
+	
 {
-	char character = 'a';
+	char character;
+	short lop;
 
-	for (character = 'a'; character <= 'z'; character++)
+	for (lop = 0; lop < 10; lop++)
+	{
+		for (character = 'a'; character <=  'z'; character++)
 	_putchar(character);
 	_putchar('\n');
-
+	}
+	
 }
 
