@@ -3,7 +3,7 @@
  * print_diagonal - this function prints diagonally \.
  * @n: int.
  * Return: Always 0.
- * */
+ */
 void print_diagonal(int n)
 {
 	int lines, espacios;
