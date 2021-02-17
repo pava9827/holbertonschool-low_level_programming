@@ -1,10 +1,10 @@
 #include "holberton.h"
-
 /**
-* Main : printf that looks for a digit from 0 to 9.
-*
-* Return : 1 if digit, 0 if not.
-*/
+ * _isdigit - checking for digits.
+ *@c: Characters to be checked
+ *
+ * Return: 1 if c is a digit. 0 otherwise.
+ */
 int _isdigit(int c)
 {
 
