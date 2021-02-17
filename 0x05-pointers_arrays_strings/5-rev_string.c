@@ -1,22 +1,26 @@
 #include "holberton.h"
 
 /**
- * void -puts - unction that prints a string, followed by a new line, to stdout
- * @str: pointer type char
+ * rev_string - print string in reserve order
+ * @s: char.
  * Return: ALways 0 (Success).
- **/
-void print_rev(char *s)
+ */
+void rev_string(char *s)
+
 {
-  int length = 0;
+	int start = 0, end = 0;
+	char temp;
 
-    while (*s != '\0')
-    {
-        length = length + 1;
-         s = s + 1;
-    }
-    
-    
-    while (s > )
+	while (s[end] != 0)
+	end++;
+	end--;
 
-    
+	while (start < end)
+	{
+	temp = s[start];
+	s[start] = s[end];
+	s[end] = temp;
+	 start++;
+	end--;
+	}
 }
